@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace BasicCsharpProgram276
 {
-    internal class Program
+     class program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("please enter integer number to find even or odd");
+            int input = Convert.ToInt32(Console.ReadLine());
+            EvenOrOddNumbers.FindEvenOrOdd(input);
+            Console.ReadLine();
         }
     }
 }
